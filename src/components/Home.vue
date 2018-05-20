@@ -39,53 +39,15 @@
 <script>
 import hello from './HelloWorld.vue'
 import json from '../assets/data/rhymes.json'
+import anim from './animation.vue'
 import axios from 'axios'
 import http from 'http'
 export default {
     data(){
       return{
          rhymes: json,
-        // catagory:[{
- 
-        //   icon:'\uf015',
-        //   title:'Home',
-        //   color:'red',
-        // },{
- 
-        //   icon:'\uf015',
-        //   title:'Ding Dong',
-        //   color:'#9AD1D4',
-        // },{
- 
-        //   icon:'\uf015',
-        //   title:'Twinkle Twinkle',
-        //   color:'#80CED7',
-        // },{
- 
-        //   icon:'\uf015',
-        //   title:'Humpty Dumpty',
-        //   color:'#007EA7',
-        // }]
       }
       },
-  //               mounted() {
-  //   this.fetchRhymes();
- 
-
-  // },
-//     methods:{
-//           fetchRhymes() {
-//       const vm = this
-//       axios.get('https://api.myjson.com/bins/15g0ci').then(response => {
-//        vm.rhymes = response.data
-//     console.log('\n\n\n\n')
-//     console.log(vm.rhymes)
-// }, function (e) {
-//     console.log('Error is here\n\n\n\n\n\n\n\n\n')
-//     console.log(e);
-// });
-//     }
-//     },
     components: {
       hello
     },

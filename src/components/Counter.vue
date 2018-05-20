@@ -1,10 +1,8 @@
 <template>
   <Page class="page">
-<ActionBar>
-<NavigationButton text="Go Back" @tap="$router.push('/home')" android.systemIcon="ic_menu_back" tap="onNavBtnTap"/>
-  <ActionItem tap="onDelete"
-      ios.systemIcon="16" ios.position="right"
-      text="delete" android.position="popup"/>
+<ActionBar  backgroundColor="skyblue" flat="true" color="white">
+  <label :text="'\uf060   Rhymes'" ios.systemIcon="16" ios.position="right" @tap="$router.push('/home')" horizontalAlignment="left" class="fontawesome"></label>
+
 </ActionBar>
 <ScrollView orientation="vertical">
   <StackLayout orientation="vertical">
@@ -21,11 +19,11 @@
 <style >
 .my-label {
     border-radius: 5;
-    color: black;
+    color: green;
     font-family:'Wicked Mouse Demo';
-    font-size: 16;
+    font-size: 14;
     vertical-align: middle;
-    width: 80%;
+    width: 85%;
     padding: 5%;
 }
 .my-title{
@@ -34,7 +32,7 @@
     font-family: 'comic2';
     font-size: 22;
     vertical-align: middle;
-    width: 80%;
+    width: 85%;
     padding: 5%;
 }
 </style>

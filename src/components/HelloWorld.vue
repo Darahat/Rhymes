@@ -25,7 +25,6 @@
   .hello-world {
     margin: 20;
   }
-
   Label {
     color: green;
   }

@@ -11,7 +11,10 @@
     "nativescript-vue": "^1.3.1",
     "tns-core-modules": "~3.4.1",
     "nativescript-ui-sidedrawer": "^4.1.0",
-    "nativescript-fonticon": "^1.1.1"
+    "nativescript-fonticon": "^1.1.1",
+    "nativescript-youtubeplayer": "^2.2.6",
+    "nativescript-exoplayer": "^3.4.1",
+    "nativescript-videoplayer": "^4.0.3"
   },
   "devDependencies": {
     "babel-traverse": "6.26.0",

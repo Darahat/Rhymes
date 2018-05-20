@@ -3,10 +3,16 @@ import Vue from 'nativescript-vue';
 import router from './router';
 import store from './store';
 import {TNSFontIcon, fonticon} from 'nativescript-fonticon';
-
-
 import './styles.scss';
+import animate from 'animate.css'
+// import { Video } from 'nativescript-videoplayer';
+// registerElement("VideoPlayer", () => Video);
+
 require("nativescript-vue").registerElement("RadSideDrawer", () => require("nativescript-ui-sidedrawer").RadSideDrawer);
+Vue.use(animate);
+Vue.registerElement("VideoPlayer", () => require("nativescript-videoplayer").Video);
+// require("nativescript-vue").registerElement("VideoPlayer", () => Video);
+
 TNSFontIcon.debug = true;
 TNSFontIcon.paths = {
   'fa': './font-awesome.css',

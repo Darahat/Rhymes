@@ -1,0 +1,51 @@
+[{
+      "id":"1",
+      "title":"Humpty Dumpty",
+      "imgurl":"~/images/Humpty.jpg",
+      "rhyme":["Humpty Dumpty sat on a wall.","Humpty Dumpty had a great fall.","All the king's horses and all the king's men,","Couldn't put Humpty together again!"],
+      "videourl":"bla bla bla"
+},
+{
+      "id":"2",
+      "title":"A Tisket, A Tasket",
+      "imgurl":"~/images/Humpty.jpg",
+      "rhyme":"A-tisket, a-tasket,A green and yellow basket.I wrote a letter to my love,And on  the way I dropped it.I dropped it, I dropped it,And, on the way I dropped it.A little boy picked it up,And put it in his pocket.",
+      "videourl":"bla bla bla"
+},
+{
+      "id":"3",
+      "title":"Baa,Baa,BlackShip",
+      "imgurl":"~/images/Humpty.jpg",
+      "rhyme":"Baa, Baa, black sheep, have you any wool?Yes sir, yes sir -three bags full.One for the master,one for the dame,And one for the little boy that lives down the lane.",
+      "videourl":"bla bla bla"
+},
+{
+      "id":"4",
+      "title":"Daffy Down Dilly",
+      "imgurl":"~/images/Humpty.jpg",
+      "rhyme":"Daffy Down Dilly Has come to town In a yellow petticoat And a green gown.",
+      "videourl":"bla bla bla"
+},
+{
+      "id":"5",
+      "title":"Donkey, Donkey, Old and Gray",
+      "imgurl":"~/images/Humpty.jpg",
+      "rhyme":"Donkey, Donkey,Old and gray,Open your mouth And gently bray; Lift your ears,And blow your horn To wake up the world This sleepy morn.",
+      "videourl":"bla bla bla"
+},
+{
+      "id":"6",
+      "title":"Five Busy Honey Bees",
+      "imgurl":"~/images/Humpty.jpg",
+      "rhyme":"Five busy honey bees were resting in the sun.The first one said, \"Let us have some fun.\"The second one said, \"Where shall it be?\"nThe third one said In the honey tree.\"The fourth one said, \"Let's make some honey sweet.\"The fifth one said, \"With pollen on our feet.\"The five little busy bees sang their buzzing tune,As they worked in the beehive all that afternoon.Bzzzzzz! Bzzzzzz! Bzzzzzz! Bzzzzzz! Bzzzzzz!",
+      "videourl":"bla bla bla"
+},
+{
+      "id":"7",
+      "title":"I See the Moon",
+      "imgurl":"~/images/Humpty.jpg",
+      "rhyme":"I see the moon,And the moon sees me;God bless the moon,And God bless me!",
+      "videourl":"bla bla bla"
+}
+
+]

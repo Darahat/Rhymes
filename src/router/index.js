@@ -25,7 +25,8 @@ const router = new VueRouter({
       },
     },
     {
-      path: '/counter',
+      path: '/counter/:id/:title/:imgurl/:rhyme',
+      name:'counter',
       component: Counter,
       meta: {
         title: 'Counter',

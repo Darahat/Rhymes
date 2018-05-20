@@ -9,11 +9,14 @@ const mutations = {
   increment (state) {
     state.count++;
   },
+  
 };
 
 const actions = {
   increment: ({commit}) => commit('increment'),
   decrement: ({commit}) => commit('decrement'),
+  openDrawer: ({commit}) => commit('openDrawer'),
+  onCloseDrawerTap: ({commit}) => commit('onCloseDrawerTap'),
 };
 
 export default {

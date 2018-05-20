@@ -1,68 +1,91 @@
 <template>
   <Page class="page">
     <ActionBar title="Rhymes" backgroundColor="skyblue" flat="true" color="white">
-      <!-- <NavigationButton  ></NavigationButton> -->
       <label :text="'\uf0c9   Rhymes'" @tap="openDrawer()" horizontalAlignment="left" class="fontawesome"></label>
     </ActionBar>
 <GridLayout rows="*" height="1500px">
   <RadSideDrawer ref="drawer">
     <StackLayout ~drawerContent backgroundColor="white" color="skyblue">
-      <StackLayout height="56" style="text-align: center; vertical-align: center;">
-         <Image  src="res://logo" text="Navigation Menu" />
-      </StackLayout>
+      <FlexboxLayout   style="text-align: center;height:156px; vertical-align: center;" >
+        <Image  class="animated-bounce" src="res://logo" text="Navigation Menu" />
+        <Image  class="animated-bounce1" src="res://logo" text="Navigation Menu" />
+        <Image class="animated-bounce2" src="res://logo" text="Navigation Menu" />
+      </FlexboxLayout>
       <StackLayout>
-        <ListView  for="item in catagory" @itemTap="onItemTap()" class="fontawesome2 sideStackLayout">
+          <ListView  for="item in rhymes" @itemTap="onItemTap()" class="fontawesome2 sideStackLayout">
           <v-template>
-            <Label :text="item.icon"></Label>
-            <!-- <Label :text="item.title" class="sideLabel sideLightGrayLabel" padding="10"></Label> -->
- 
+<Label :text="item.icon" class="sideLabel sideLightGrayLabel"></Label>
+            <Label :text="item.title" class="sideLabel sideLightGrayLabel" padding="10" @tap="$router.push({ name:'counter',params: {id: item.id,
+             title:item.title,
+             imgurl:item.imgurl,
+             rhyme:item.rhyme
+            } })"></Label>
           </v-template>
         </ListView>
       </StackLayout>
         <Label text="Close" color="lightgray" padding="10" style="horizontal-align: center" @tap="onCloseDrawerTap"></Label>
       </StackLayout>
       <StackLayout ~mainContent>
-        <!-- <Label textWrap="true">Hello</Label> -->
-        <hello ref="hello"></hello>
+      <StackLayout>
+      <hello ref="hello"></hello>
+      </StackLayout>
       </StackLayout>
     </RadSideDrawer>
 
 </GridLayout>
-    <!-- <StackLayout>
-      <Button class="btn btn-primary" @tap="$router.push('/counter')">Counter</Button>
-      <Button class="btn btn-primary" @tap="$router.push('/hello')">Hello World</Button>
-    </StackLayout> -->
 
   </Page>
 </template>
 <script>
 import hello from './HelloWorld.vue'
+import json from '../assets/data/rhymes.json'
+import axios from 'axios'
+import http from 'http'
 export default {
     data(){
       return{
-        catagory:[{
+         rhymes: json,
+        // catagory:[{
  
-          icon:'\uf015',
-          title:'Home'
-        },{
+        //   icon:'\uf015',
+        //   title:'Home',
+        //   color:'red',
+        // },{
  
-          icon:'\uf015',
-          title:'Promotions'
-        },{
+        //   icon:'\uf015',
+        //   title:'Ding Dong',
+        //   color:'#9AD1D4',
+        // },{
  
-          icon:'\uf015',
-          title:'Promotions'
-        },{
+        //   icon:'\uf015',
+        //   title:'Twinkle Twinkle',
+        //   color:'#80CED7',
+        // },{
  
-          icon:'\uf015',
-          title:'Promotions'
-        },{
- 
-          icon:'\uf015',
-          title:'Promotions'
-        }]
+        //   icon:'\uf015',
+        //   title:'Humpty Dumpty',
+        //   color:'#007EA7',
+        // }]
       }
-    },
+      },
+  //               mounted() {
+  //   this.fetchRhymes();
+ 
+
+  // },
+//     methods:{
+//           fetchRhymes() {
+//       const vm = this
+//       axios.get('https://api.myjson.com/bins/15g0ci').then(response => {
+//        vm.rhymes = response.data
+//     console.log('\n\n\n\n')
+//     console.log(vm.rhymes)
+// }, function (e) {
+//     console.log('Error is here\n\n\n\n\n\n\n\n\n')
+//     console.log(e);
+// });
+//     }
+//     },
     components: {
       hello
     },
@@ -79,12 +102,15 @@ export default {
 <style>
   .fontawesome{
   font-family: "fontawesome-webfont";
-  font-size:20px;
+  font-size:23;
 }
 .fontawesome2{
-  font-family: "fontawesome-webfont";
-  font-size:15px;
-  margin:5px;
-  padding:5px;
+  font-family: "Funhouse";
+  font-size:15;
+  text-align: center;
+  margin:5;
+  padding:5;
+  color:red;
 }
+
 </style>

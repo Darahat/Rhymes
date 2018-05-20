@@ -1,27 +1,13 @@
 <template>
 
-<ScrollView orientation="vertical">
-  <StackLayout orientation="vertical">
-      <Image src="~/images/Humpty.jpg"  />
-      <Label  textWrap="true" text="Cock a doodle doo" class="my-title"/>
-      <Label  textWrap="true" class="my-label"
-      text="Cock a doodle do!
-What is my dame to do?
-Till master's found his fiddlingstick,
-She'll dance without her shoe.
 
-Cock a doodle do!
-My dame has found her shoe,
-And master's found his fiddlingstick,
-Sing cock a doodle do!
+<CardView class="cardStyle" margin="10" elevation="40" radius="10" >
+	<GridLayout rows="auto,auto,auto,auto,auto" columns="auto,auto, *, auto,auto">
+		<Image src="res://baa" stretch="aspectFill" colSpan="3" col="1" row="3"/>
+		<Label horizontalAlignment="right" radius="20" color="white" background="purple" text="Ba Ba Black Ship"  row="4"  col="1"></Label>
+	</GridLayout>
+</CardView>
 
-Cock a doodle do!
-My dame will dance with you,
-While master fiddles his fiddlingstick,
-And knows not what to do"/>
- </StackLayout>
-</ScrollView>
-   
 </template>
 
 <script>
@@ -30,7 +16,7 @@ And knows not what to do"/>
     data () {
       return {
         surprise: false,
-        
+
       };
     },
   };

@@ -21,7 +21,7 @@
     border-radius: 5;
     color: green;
     font-family:'Wicked Mouse Demo';
-    font-size: 14;
+    font-size: 13;
     vertical-align: middle;
     width: 85%;
     padding: 5%;
@@ -30,7 +30,7 @@
     border-radius: 5;
     color: orangered;
     font-family: 'comic2';
-    font-size: 22;
+    font-size: 21;
     vertical-align: middle;
     width: 85%;
     padding: 5%;

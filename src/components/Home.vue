@@ -16,9 +16,9 @@
           <v-template>
 <Label :text="item.icon" class="sideLabel sideLightGrayLabel"></Label>
             <Label :text="item.title" class="sideLabel sideLightGrayLabel" padding="10" @tap="$router.push({ name:'counter',params: {id: item.id,
-             title:item.title,
-             imgurl:item.imgurl,
-             rhyme:item.rhyme
+            title:item.title,
+            imgurl:item.imgurl,
+            rhyme:item.rhyme
             } })"></Label>
           </v-template>
         </ListView>

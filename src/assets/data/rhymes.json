@@ -1,50 +1,50 @@
 [{
       "id":"1",
       "title":"Humpty Dumpty",
-      "imgurl":"~/images/Humpty.jpg",
-      "rhyme":["Humpty Dumpty sat on a wall.","Humpty Dumpty had a great fall.","All the king's horses and all the king's men,","Couldn't put Humpty together again!"],
+      "imgurl":"res://Humpty",
+      "rhyme":"Humpty Dumpty'\r\n' sat on a wall,'\r\n'Humpty Dumpty'\r\n' had a great fall,'\r\n'All the king's horses and all the king's men,'\r\n'Couldn't put Humpty together again!'\r\n'",
       "videourl":"bla bla bla"
 },
 {
       "id":"2",
       "title":"A Tisket, A Tasket",
-      "imgurl":"~/images/Humpty.jpg",
-      "rhyme":"A-tisket, a-tasket,A green and yellow basket.I wrote a letter to my love,And on  the way I dropped it.I dropped it, I dropped it,And, on the way I dropped it.A little boy picked it up,And put it in his pocket.",
+      "imgurl":"res://tisket",
+      "rhyme":"A-tisket, a-tasket,'\r\n'A green and yellow basket.'\r\n'I wrote a letter to my love,'\r\n'And on  the way I dropped it.'\r\n''\r\n'I dropped it, I dropped it,'\r\n'And, on the way I dropped it.'\r\n'A little boy picked it up,'\r\n'And put it in his pocket.'\r\n'",
       "videourl":"bla bla bla"
 },
 {
       "id":"3",
       "title":"Baa,Baa,BlackShip",
-      "imgurl":"~/images/Humpty.jpg",
-      "rhyme":"Baa, Baa, black sheep, have you any wool?Yes sir, yes sir -three bags full.One for the master,one for the dame,And one for the little boy that lives down the lane.",
+      "imgurl":"res://baa",
+      "rhyme":"Baa, Baa, black sheep,'\r\n' have you any wool?'\r\n'Yes sir, yes sir, \r\n'three bags full.'\r\n'One for the master,'\r\n'one for the dame,'\r\n'And one for the little boy '\r\n'that lives down the lane.",
       "videourl":"bla bla bla"
 },
 {
       "id":"4",
       "title":"Daffy Down Dilly",
-      "imgurl":"~/images/Humpty.jpg",
-      "rhyme":"Daffy Down Dilly Has come to town In a yellow petticoat And a green gown.",
+      "imgurl":"res://daffy",
+      "rhyme":"Daffy Down Dilly '\r\n' Has come to town '\r\n' In a yellow petticoat'\r\n' And a green gown.'\r\n'Daffy-down-Dilly.",
       "videourl":"bla bla bla"
 },
 {
       "id":"5",
       "title":"Donkey, Donkey, Old and Gray",
-      "imgurl":"~/images/Humpty.jpg",
-      "rhyme":"Donkey, Donkey,Old and gray,Open your mouth And gently bray; Lift your ears,And blow your horn To wake up the world This sleepy morn.",
+      "imgurl":"res://donky",
+      "rhyme":"Donkey, Donkey,'\r\n'Old and gray,'\r\n'Open your mouth '\r\n'And gently bray;'\r\n''\r\n' Lift your ears,'\r\n'And blow your horn '\r\n'To wake up the world '\r\n'This sleepy morn.",
       "videourl":"bla bla bla"
 },
 {
       "id":"6",
-      "title":"Five Busy Honey Bees",
-      "imgurl":"~/images/Humpty.jpg",
-      "rhyme":"Five busy honey bees were resting in the sun.The first one said, \"Let us have some fun.\"The second one said, \"Where shall it be?\"nThe third one said In the honey tree.\"The fourth one said, \"Let's make some honey sweet.\"The fifth one said, \"With pollen on our feet.\"The five little busy bees sang their buzzing tune,As they worked in the beehive all that afternoon.Bzzzzzz! Bzzzzzz! Bzzzzzz! Bzzzzzz! Bzzzzzz!",
+      "title":"Ding, dong, bell",
+      "imgurl":"res://ding",
+      "rhyme":"Ding, dong, bell,'\r\n'Pussy’s in the well.'\r\n'Who put her in?'\r\n'Little Johnny Thin.'\r\n'Who pulled her out?'\r\n'Little Tommy Stout.'\r\n'What a naughty boy was that,'\r\n'To try to drown poor pussy cat,'\r\n'Who never did him any harm,'\r\n'But chased up all the mice in the farmer's barn",
       "videourl":"bla bla bla"
 },
 {
       "id":"7",
       "title":"I See the Moon",
-      "imgurl":"~/images/Humpty.jpg",
-      "rhyme":"I see the moon,And the moon sees me;God bless the moon,And God bless me!",
+      "imgurl":"res://moon",
+      "rhyme":"I see the moon,'\r\n'And the moon sees me;'\r\n'God bless the moon,'\r\n'And God bless me!",
       "videourl":"bla bla bla"
 }
 

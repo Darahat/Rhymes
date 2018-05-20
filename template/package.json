@@ -14,7 +14,8 @@
     "nativescript-fonticon": "^1.1.1",
     "nativescript-youtubeplayer": "^2.2.6",
     "nativescript-exoplayer": "^3.4.1",
-    "nativescript-videoplayer": "^4.0.3"
+    "nativescript-videoplayer": "^4.0.3",
+    "nativescript-cardview": "^3.0.1"
   },
   "devDependencies": {
     "babel-traverse": "6.26.0",

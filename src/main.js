@@ -5,6 +5,8 @@ import store from './store';
 import {TNSFontIcon, fonticon} from 'nativescript-fonticon';
 import './styles.scss';
 import animate from 'animate.css'
+import { CardView } from 'nativescript-cardview';
+require("nativescript-vue").registerElement('CardView', () => CardView);
 // import { Video } from 'nativescript-videoplayer';
 // registerElement("VideoPlayer", () => Video);
 

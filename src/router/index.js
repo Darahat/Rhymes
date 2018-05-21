@@ -3,39 +3,39 @@ import VueRouter from 'vue-router';
 
 Vue.use(VueRouter);
 
-import Home from '../components/Home';
-import HelloWorld from '../components/HelloWorld';
-import Counter from '../components/Counter';
+import Drawer from '../components/Drawer';
+import ListView from '../components/ListView';
+import Rhyme from '../components/Rhyme';
 
 const router = new VueRouter({
   pageRouting: true,
   routes: [
     {
-      path: '/home',
-      component: Home,
+      path: '/Drawer',
+      component: Drawer,
       meta: {
-        title: 'Home',
+        title: 'Drawer',
       },
     },
     {
-      path: '/hello',
-      component: HelloWorld,
+      path: '/List',
+      component: ListView,
       meta: {
-        title: 'Hello World',
+        title: 'ListView',
       },
     },
     {
-      path: '/counter/:id/:title/:imgurl/:rhyme',
-      name:'counter',
-      component: Counter,
+      path: '/Rhyme/:id/:title/:imgurl/:rhyme',
+      name:'Rhyme',
+      component: Rhyme,
       meta: {
-        title: 'Counter',
+        title: 'Rhyme',
       },
     },
-    {path: '*', redirect: '/home'},
+    {path: '*', redirect: '/Drawer'},
   ],
 });
 
-router.replace('/home');
+router.replace('/Drawer');
 
 module.exports = router;

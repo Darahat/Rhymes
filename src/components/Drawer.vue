@@ -1,7 +1,7 @@
 <template>
   <Page class="page">
     <ActionBar title="Rhymes" backgroundColor="skyblue" flat="true" color="white">
-      <label :text="'\uf0c9   Rhymes'" @tap="openDrawer()" horizontalAlignment="left" class="fontawesome"></label>
+      <label :text="'\uf0c9   Rhymes'" @tap="openDrawer()" horizontalAlignment="left" class="rubberBand fontawesome"></label>
     </ActionBar>
 <GridLayout rows="*" height="1500px">
   <RadSideDrawer ref="drawer">
@@ -12,10 +12,9 @@
         <Image class="animated-bounce2" src="res://logo" text="Navigation Menu" />
       </FlexboxLayout>
       <StackLayout>
-          <ListView  for="item in rhymes" @itemTap="onItemTap()" class="fontawesome2 sideStackLayout">
-          <v-template>
-<Label :text="item.icon" class="sideLabel sideLightGrayLabel"></Label>
-            <Label :text="item.title" class="sideLabel sideLightGrayLabel" padding="10" @tap="$router.push({ name:'counter',params: {id: item.id,
+          <ListView  separatorColor="skyBlue" for="item in rhymes" @itemTap="onItemTap()" class="fontawesome2 ">
+          <v-template class="lightSpeedIn ">
+            <Label :text="item.title"  padding="10" @tap="$router.push({ name:'Rhyme',params: {id: item.id,
             title:item.title,
             imgurl:item.imgurl,
             rhyme:item.rhyme
@@ -27,7 +26,7 @@
       </StackLayout>
       <StackLayout ~mainContent>
       <StackLayout>
-      <hello ref="hello"></hello>
+      <List ref="List"></List>
       </StackLayout>
       </StackLayout>
     </RadSideDrawer>
@@ -37,7 +36,7 @@
   </Page>
 </template>
 <script>
-import hello from './HelloWorld.vue'
+import List from './ListView.vue'
 import json from '../assets/data/rhymes.json'
 import anim from './animation.vue'
 import axios from 'axios'
@@ -45,11 +44,11 @@ import http from 'http'
 export default {
     data(){
       return{
-         rhymes: json,
+        rhymes: json,
       }
       },
     components: {
-      hello
+      List
     },
     methods: {
         openDrawer() {
@@ -72,7 +71,7 @@ export default {
   text-align: center;
   margin:5;
   padding:5;
-  color:red;
+  color:skyBlue;
 }
 
 </style>

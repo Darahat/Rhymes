@@ -1,7 +1,7 @@
 <template>
   <Page class="page">
 <ActionBar  backgroundColor="skyblue" flat="true" color="white">
-  <label :text="'\uf060   Rhymes'" ios.systemIcon="16" ios.position="right" @tap="$router.push('/home')" horizontalAlignment="left" class="fontawesome"></label>
+  <label :text="'\uf060   Rhymes'" ios.systemIcon="16" ios.position="right" @tap="$router.push('/Drawer')" horizontalAlignment="left" class="fontawesome"></label>
 
 </ActionBar>
 <ScrollView orientation="vertical">

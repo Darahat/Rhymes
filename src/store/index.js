@@ -1,7 +1,7 @@
 import Vue from 'nativescript-vue';
 import Vuex from 'vuex';
 
-import counter from './modules/counter';
+import counter from './modules/Rhyme';
 
 Vue.use(Vuex);
 
